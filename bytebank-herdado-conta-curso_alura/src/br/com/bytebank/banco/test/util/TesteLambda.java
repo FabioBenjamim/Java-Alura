@@ -39,6 +39,7 @@ public class TesteLambda {
 		cc4.setTitular(clienteCC4);
 		cc4.deposita(222.0);
 
+		
 		List<Conta> lista = new ArrayList<>();
 		lista.add(cc1);
 		lista.add(cc2);
@@ -56,6 +57,11 @@ public class TesteLambda {
 		lista.sort( comp );
 		
 		lista.forEach( (conta) -> System.out.println(conta + ", " + conta.getTitular().getNome()));
+		
+		
+		
+		
+		
 	}
 }
 
